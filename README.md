@@ -1,12 +1,6 @@
-# Kosuke Template
+# NEXTJS TEMPLATE
 
-[![GitHub Release](https://img.shields.io/github/v/release/Kosuke-Org/kosuke-template?style=flat-square&logo=github&color=blue)](https://github.com/Kosuke-Org/kosuke-template/releases)
-[![License](https://img.shields.io/github/license/Kosuke-Org/kosuke-template?style=flat-square&color=green)](LICENSE)
-[![Documentation](https://img.shields.io/badge/docs-docs--template.kosuke.ai-blue?style=flat-square&logo=docusaurus)](https://docs-template.kosuke.ai)
 
-A modern Next.js 15 template with TypeScript, Better Auth authentication with Organizations, Stripe Billing, DigitalOcean Spaces, PostgreSQL database, Shadcn UI, Tailwind CSS, and Sentry error monitoring. Built for multi-tenant SaaS applications.
-
-Production-ready Next.js 15 SaaS starter with Better Auth Organizations, Stripe Billing, and complete multi-tenant functionality.
 
 - **Next.js 15** with App Router
 - **TypeScript** for type safety
@@ -67,9 +61,7 @@ You'll need accounts with these services (all have free tiers):
 
 ```bash
 # Fork the repository on GitHub
-# Then clone your fork
-git clone https://github.com/YOUR_USERNAME/kosuke-template.git
-cd kosuke-template
+
 ```
 
 #### 2. Install Dependencies
@@ -104,7 +96,7 @@ STRIPE_CANCEL_URL=http://localhost:3000/settings/billing
 # Resend Email (from resend.com/api-keys)
 RESEND_API_KEY=re_...
 RESEND_FROM_EMAIL=onboarding@resend.dev
-RESEND_FROM_NAME=Kosuke Template
+RESEND_FROM_NAME=Template
 
 # Sentry (from sentry.io - optional for local dev)
 NEXT_PUBLIC_SENTRY_DSN=https://...@....ingest.sentry.io/...
